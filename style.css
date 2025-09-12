@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 500px;
+  height: 600px;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill {
+  width: 480px;
+  height: 580px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.screen {
+  background-color: black;
+  grid-column: span 4 / span 4;
+  grid-row-start: 1;
+}
+
+.screen {
+    background-color: dimgray;
+}
+
+.one,
+.two,
+.three,
+.plus {
+  grid-row-start: 2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one,
+.two,
+.three {
+    background-color: gray;
+}
+
+.plus {
+    background-color: orange;
+}
+
+.four,
+.five,
+.six,
+.minus {
+  grid-row-start: 3;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four,
+.five,
+.six {
+    background-color: gray;
+}
+
+.minus {
+    background-color: orange;
+}
+
+.seven,
+.eight,
+.nine,
+.time {
+  grid-row-start: 4;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seven,
+.eight,
+.nine {
+    background-color: gray;
+}
+
+.time {
+    background-color: orange;
+}
+
+.equal,
+.zero,
+.removeOne,
+.divide {
+  grid-row-start: 5;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.removeOne {
+    background-color: red;
+}
+
+.zero {
+    background-color: gray;
+}
+
+.equal {
+    background-color: green;
+}
+
+.divide {
+    background-color: orange;
+}
