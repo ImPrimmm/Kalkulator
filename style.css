@@ -37,6 +37,11 @@ body {
 
 .screen {
     background-color: dimgray;
+    font-family: sans-serif;
+    font-size: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
 }
 
 .one,
@@ -85,7 +90,7 @@ body {
 .seven,
 .eight,
 .nine,
-.time {
+.times {
   grid-row-start: 4;
   background-color: black;
   color: white;
@@ -100,7 +105,7 @@ body {
     background-color: gray;
 }
 
-.time {
+.times {
     background-color: orange;
 }
 
@@ -130,4 +135,8 @@ body {
 
 .divide {
     background-color: orange;
+}
+
+.button:hover {
+  cursor: pointer;
 }
