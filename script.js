@@ -46,213 +46,201 @@ const operator = {
 };
 
 one.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("1");
+    screen.append("1")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("1");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "1";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "1";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "1";
+      screen.append("1")
+    } else {
+      wrapper.push("1");
+      screen.append("1")
     }
   }
 });
 
 two.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("2");
+    screen.append("2")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("2");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "2";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "2";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "2";
+      screen.append("2")
+    } else {
+      wrapper.push("2");
+      screen.append("2")
     }
   }
 });
 
 three.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("3");
+    screen.append("3")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("3");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "3";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "3";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "3";
+      screen.append("3")
+    } else {
+      wrapper.push("3");
+      screen.append("3")
     }
   }
 });
 
 four.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("4");
+    screen.append("4")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("4");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "4";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "4";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "4";
+      screen.append("4")
+    } else {
+      wrapper.push("4");
+      screen.append("4")
     }
   }
 });
 
 five.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("5");
+    screen.append("5")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("5");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "5";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "5";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "5";
+      screen.append("5")
+    } else {
+      wrapper.push("5");
+      screen.append("5")
     }
   }
 });
 
 six.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("6");
+    screen.append("6")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("6");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "6";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "6";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "6";
+      screen.append("6")
+    } else {
+      wrapper.push("6");
+      screen.append("6")
     }
   }
 });
 
 seven.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("7");
+    screen.append("7")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("7");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "7";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "7";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "7";
+      screen.append("7")
+    } else {
+      wrapper.push("7");
+      screen.append("7")
     }
   }
 });
 
 eight.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("8");
+    screen.append("8")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("8");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "8";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "8";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "8";
+      screen.append("8")
+    } else {
+      wrapper.push("8");
+      screen.append("8")
     }
   }
 });
 
 nine.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("9");
+    screen.append("9")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("9");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "9";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "9";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "9";
+      screen.append("9")
+    } else {
+      wrapper.push("9");
+      screen.append("9")
     }
   }
 });
 
 zero.addEventListener("click", () => {
-  if (wrapper[0] === undefined) {
+  if (wrapper.length === 0) {
     wrapper.push("0");
+    screen.append("0")
   } else {
-    for (let i = 0; i < wrapper.length; i++) {
-      if (wrapper[i].type === "operator") {
-        wrapper.push("0");
-      } else {
-        if (i === 0) {
-          wrapper[i] = wrapper[i] + "0";
-        } else {
-          wrapper[i - 1] = wrapper[i - 1] + "0";
-        }
-      }
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper[wrapper.length - 1] = last + "0";
+      screen.append("0")
+    } else {
+      wrapper.push("0");
+      screen.append("0")
     }
   }
 });
 
 plus.addEventListener("click", () => {
-  let n = 1;
-  for (let i = 0; i < n; i++) {
-    screen.append("+");
-    wrapper.push("+");
+  if (wrapper.length !== 0) {
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper.push(operator.plus);
+      screen.append(operator.plus.value);
+    }
   }
 });
 
 minus.addEventListener("click", () => {
-  let n = 1;
-  for (let i = 0; i < n; i++) {
-    screen.append("-");
-    wrapper.push("-");
+  if (wrapper.length !== 0) {
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper.push(operator.minus);
+      screen.append(operator.minus.value);
+    }
   }
 });
 
 times.addEventListener("click", () => {
-  let n = 1;
-  for (let i = 0; i < n; i++) {
-    screen.append("x");
-    wrapper.push("x");
+  if (wrapper.length !== 0) {
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper.push(operator.times);
+      screen.append(operator.times.value);
+    }
   }
 });
 
 divide.addEventListener("click", () => {
-  let n = 1;
-  for (let i = 0; i < n; i++) {
-    screen.append("/");
-    wrapper.push("/");
+  if (wrapper.length !== 0) {
+    const last = wrapper[wrapper.length - 1];
+    if (typeof last === "string") {
+      wrapper.push(operator.times);
+      screen.append(operator.times.value);
+    }
   }
 });
