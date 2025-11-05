@@ -41,7 +41,17 @@ body {
     font-size: 80px;
     display: flex;
     flex-direction: row-reverse;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.screen::-webkit-scrollbar {
+  display: none;
+}
+
+.screen {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .one,
