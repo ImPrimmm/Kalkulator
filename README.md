@@ -12,5 +12,6 @@ Beberapa fitur yang akan hadir dalam kalkulator ini adalah
 - operator
 
 ## Status
+Selesai, tapi perlu memperbaiki beberapa bug dan juga membuatnya responsif dan tidak makan banyak line
 
-### Prototipe
+### Done
