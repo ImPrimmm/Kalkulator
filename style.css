@@ -14,7 +14,7 @@ body {
 .container {
   width: 500px;
   height: 600px;
-  background-color: blanchedalmond;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,6 +52,7 @@ body {
 .screen {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  border: 5px inset grey;
 }
 
 .one,
@@ -63,6 +64,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-collapse: collapse;
+  border: 0px solid
 }
 
 .one,
@@ -85,6 +88,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-collapse: collapse;
+  border: 0px solid
 }
 
 .four,
@@ -107,6 +112,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-collapse: collapse;
+  border: 0px solid
 }
 
 .seven,
@@ -115,8 +122,24 @@ body {
     background-color: gray;
 }
 
+.zero:hover, .one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover, .nine:hover{
+  background-color: rgb(59, 59, 59);
+}
+
 .times {
-    background-color: orange;
+  background-color: orange;
+}
+
+.times:hover, .plus:hover, .minus:hover, .divide:hover {
+  background-color: rgb(148, 96, 0);
+}
+
+.equal:hover {
+  background-color: rgb(0, 90, 0);
+}
+
+.removeOne:hover {
+  background-color: rgb(153, 0, 0);
 }
 
 .equal,
@@ -129,6 +152,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-collapse: collapse;
+  border: 0px solid black
 }
 
 .removeOne {
